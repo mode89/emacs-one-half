@@ -9,6 +9,7 @@
 (defconst one-half-comment "#a0a1a7")
 (defconst one-half-selection "#bfceff")
 (defconst one-half-cursor-line "#f0f0f0")
+(defconst one-half-line-number "#d4d4d4")
 
 (deftheme one-half "DOCSTRING for one-half")
 (custom-theme-set-faces 'one-half
@@ -34,6 +35,8 @@
                  :background ,one-half-yellow))))
   `(lazy-highlight ((t (:foreground ,one-half-white
                         :background ,one-half-yellow))))
+  `(line-number ((t (:foreground ,one-half-line-number))))
+  `(line-number-current-line ((t (:foreground ,one-half-black))))
 )
 
 (provide-theme 'one-half)
