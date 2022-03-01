@@ -11,7 +11,7 @@
 (defconst one-half-cursor-line "#f0f0f0")
 (defconst one-half-line-number "#d4d4d4")
 
-(deftheme one-half "DOCSTRING for one-half")
+(deftheme one-half "One Half colors for Emacs")
 (custom-theme-set-faces 'one-half
   `(default ((t (:foreground ,one-half-black
                  :background ,one-half-white))))
